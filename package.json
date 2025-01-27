@@ -1,0 +1,17 @@
+{
+  "name": "propulse-landing-page",
+  "version": "1.0.0",
+  "description": "Propuse landing page.",
+  "main": "src/scripts/main.js",
+  "scripts": {
+    "build": "gulp build",
+    "watch": "gulp watch"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0",
+    "sass": "^1.32.0"
+  },
+  "author": "christianempire",
+  "license": "ISC"
+}
