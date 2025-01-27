@@ -3682,12 +3682,12 @@ button:focus {
   top: 0;
   left: 0;
   position: absolute;
-  background: url("../startup_shap.png") no-repeat scroll center
+  background: url("./startup_shap.png") no-repeat scroll center
     bottom/cover;
   z-index: -1;
 }
 .startup_banner_area_client {
-  background-image: url("../BG-Worldmap.png");
+  background-image: url("./BG-Worldmap.png");
   background-position: center center;
   background-repeat: no-repeat;
 
@@ -3701,7 +3701,7 @@ button:focus {
   /* transition: background (0.3s, border-radius 0.3s, opacity 0.3s); */
 }
 .demo-request-bg {
-  background-image: url("../Vector-Smart-Object-copy.png");
+  background-image: url("./Vector-Smart-Object-copy.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: 47% auto;
