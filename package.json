@@ -4,13 +4,17 @@
   "description": "Propuse landing page.",
   "main": "src/scripts/main.js",
   "scripts": {
-    "build": "gulp build",
-    "watch": "gulp watch"
+    "build": "gulp",
+    "watch": "gulp watch",
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
-    "gulp": "^4.0.2",
-    "gulp-sass": "^4.1.0",
-    "sass": "^1.32.0"
+    "browser-sync": "^3.0.3",
+    "gh-pages": "^6.3.0",
+    "gulp": "^5.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^6.0.0",
+    "sass": "^1.83.4"
   },
   "author": "christianempire",
   "license": "ISC"
