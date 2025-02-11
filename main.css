@@ -24,3 +24,11 @@
   background: #30d85b;
   color: #ffffff;
 }
+
+.startup_content_three h2 {
+  color: #333333;
+}
+
+p.home-banner-text {
+  color: #666666 !important;
+}
