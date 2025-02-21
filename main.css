@@ -32,3 +32,38 @@
 p.home-banner-text {
   color: #666666 !important;
 }
+
+.highway-car {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.highway-car .image-link {
+  height: 200px;
+  background-color: white;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+.position-r {
+  height: 500px !important;
+}
+
+.bg_color {
+  background: #1a30c9;
+}
+
+.f_widget.about-widget .f_list li a {
+  color: white;
+}
+
+p.f_size_15.my-0 {
+  color: white;
+}
+
+.f_social_icon a {
+  background: #30d85b;
+  color: white;
+}
+
+.f-title {
+  color: white;
+}
