@@ -1,1 +1,97 @@
-// This file is intentionally left blank.
+.navbar-brand {
+  color: #1e38ec;
+}
+
+.menu {
+  & > .nav-item {
+    .nav-link {
+      color: #333333;
+      font-size: 16px;
+    }
+
+    &:hover {
+      .nav-link {
+        color: #30d85b !important;
+
+        &:before {
+          background-color: #30d85b !important;
+        }
+      }
+    }
+  }
+}
+
+.slider_btn {
+  border-radius: 8px;
+}
+
+.btn_six {
+  background: #1e38ec;
+
+  &:hover {
+    background: #30d85b;
+    color: #ffffff;
+  }
+}
+
+.startup_content_three {
+  h2 {
+    color: #333333;
+  }
+}
+
+p {
+  &.home-banner-text {
+    color: #666666 !important;
+  }
+}
+
+.highway-car {
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  .image-link {
+    height: 200px;
+    background-color: white;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+  }
+}
+
+.position-r {
+  height: 500px !important;
+}
+
+.bg_color {
+  background: #1a30c9;
+}
+
+.f_widget {
+  &.about-widget {
+    .f_list {
+      li {
+        a {
+          color: white;
+        }
+      }
+    }
+  }
+}
+
+p {
+  &.f_size_15 {
+    &.my-0 {
+      color: white;
+    }
+  }
+}
+
+.f_social_icon {
+  a {
+    background: #30d85b;
+    color: white;
+  }
+}
+
+.f-title {
+  color: white;
+}
