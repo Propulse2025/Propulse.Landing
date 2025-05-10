@@ -58,3 +58,13 @@ p.home-banner-text {
 .btn_six {
   white-space: nowrap;
 }
+
+.team-photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  overflow: hidden;
+  margin: 0 auto;
+  display: block;
+}
