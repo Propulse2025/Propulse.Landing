@@ -4,8 +4,7 @@
   "description": "Propuse landing page.",
   "main": "src/scripts/main.js",
   "scripts": {
-    "build": "gulp",
-    "watch": "gulp watch",
+    "start": "gulp",
     "deploy": "gh-pages -d dist"
   },
   "devDependencies": {

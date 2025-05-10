@@ -62,36 +62,23 @@ p {
 }
 
 .bg_color {
-  background: #1a30c9;
+  background: #f5f9ff;
 }
 
-.f_widget {
-  &.about-widget {
-    .f_list {
-      li {
-        a {
-          color: white;
-        }
-      }
-    }
-  }
+.nav-link {
+  white-space: nowrap;
 }
 
-p {
-  &.f_size_15 {
-    &.my-0 {
-      color: white;
-    }
-  }
+.btn_six {
+  white-space: nowrap;
 }
 
-.f_social_icon {
-  a {
-    background: #30d85b;
-    color: white;
-  }
-}
-
-.f-title {
-  color: white;
+.team-photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  overflow: hidden;
+  margin: 0 auto;
+  display: block;
 }
