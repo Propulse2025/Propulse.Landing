@@ -13,6 +13,15 @@ function style() {
     .pipe(browserSync.stream());
 }
 
+// Concat scripts
+function scripts() {
+  return gulp
+    .src("src/scripts/**/*.js")
+    .pipe(concat("propulse.js"))
+    .pipe(gulp.dest("dist"))
+    .pipe(browserSync.stream());
+}
+
 // Copy HTML
 function copyHtml() {
   return gulp
@@ -29,9 +38,9 @@ function watch() {
     },
   });
   gulp.watch("src/styles/**/*.scss", style);
-  gulp.watch("src/scripts/**/*.js").on("change", browserSync.reload);
+  gulp.watch("src/scripts/**/*.js", scripts);
   gulp.watch("src/index.html", copyHtml).on("change", browserSync.reload);
 }
 
 // Default task
-exports.default = gulp.series(style, copyHtml, watch);
+exports.default = gulp.series(style, scripts, copyHtml, watch);

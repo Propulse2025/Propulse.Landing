@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- saved from url=(0023)https://www.aisight.ai/ -->
-<html lang="en">
+<html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <style type="text/css">
@@ -815,25 +815,34 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav menu pl_120 ml-auto">
                 <li class="nav-item">
-                  <a class="nav-link" href="#inicio">Inicio</a>
+                  <a class="nav-link" href="#inicio" id="nav-inicio">Inicio</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#clientes"> Clientes </a>
+                  <a class="nav-link" href="#clientes" id="nav-clientes"
+                    >Clientes</a
+                  >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#servicios"> Servicios </a>
+                  <a class="nav-link" href="#servicios" id="nav-servicios"
+                    >Servicios</a
+                  >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#meet-the-team"> Equipo </a>
+                  <a class="nav-link" href="#meet-the-team" id="nav-equipo"
+                    >Equipo</a
+                  >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#contacto"> Contacto </a>
+                  <a class="nav-link" href="#contacto" id="nav-contacto"
+                    >Contacto</a
+                  >
                 </li>
               </ul>
               <a
                 class="btn_six slider_btn btn_hover menu_cus btn-sm px-3 py-2 ml-4"
                 href="https://wa.me/+351925922568"
                 target="_blank"
+                id="nav-demo-btn"
                 >Solicita una demo</a
               >
             </div>
@@ -854,12 +863,16 @@
                     animation-name: fadeInUp;
                   "
                 >
-                  <span
+                  <span id="main-heading"
                     >Predicciones que cierran ventas inmobiliarias más
                     rápido</span
                   >
                   <br />
-                  <p class="home-banner-text mt-2" style="width: 75%">
+                  <p
+                    class="home-banner-text mt-2"
+                    style="width: 75%"
+                    id="main-desc"
+                  >
                     Identifica a los clientes listos para comprar con tecnología
                     predictiva impulsada por IA
                   </p>
@@ -877,6 +890,7 @@
                     animation-delay: 0.3s;
                     animation-name: fadeInLeft;
                   "
+                  id="demo-btn"
                   >Solicita una demo ahora</a
                 >
                 <a
@@ -891,7 +905,8 @@
                     animation-name: fadeInLeft;
                   "
                 >
-                  <i class="fa fa-play-circle"></i>Ver Video
+                  <i class="fa fa-play-circle"></i
+                  ><span id="video-btn">Ver Video</span>
                 </a>
               </div>
             </div>
@@ -940,10 +955,10 @@
     <section id="clientes" class="position-r">
       <div class="startup_banner_area_client"></div>
       <section class="partner_logo_area_six conatiner">
-        <h2 class="client-text1 text-center py-3">
+        <h2 class="client-text1 text-center py-3" id="clientes-title1">
           Algunos de nuestros clientes
         </h2>
-        <h2 class="client-text2 text-center pb-4">
+        <h2 class="client-text2 text-center pb-4" id="clientes-title2">
           Quienes confian en nosotros
         </h2>
         <div class="companies">
@@ -1022,11 +1037,11 @@
         <div class="row">
           <div class="col-12">
             <div>
-              <h2 class="sku-heading text-center">
+              <h2 class="sku-heading text-center" id="sku-heading">
                 Soluciones inteligentes para entender y anticipar el mercado
                 inmobiliario
               </h2>
-              <p class="sku-text text-center">
+              <p class="sku-text text-center" id="sku-desc">
                 Combinamos analítica predictiva y datos especializados para
                 ayudarte a optimizar tus ventas y decisiones comerciales
               </p>
@@ -1039,8 +1054,10 @@
               class="sku-icon-div d-flex align_items_center pb-2 pt-5 mt-5"
             ></div>
             <div class="text-div py-2">
-              <h2>Análisis Predictivo de Compra | PredictPro</h2>
-              <p class="sku-text">
+              <h2 id="predictpro-title">
+                Análisis Predictivo de Compra | PredictPro
+              </h2>
+              <p class="sku-text" id="predictpro-desc">
                 Optimiza tus ventas priorizando leads mediante la predicción de
                 la probabilidad de compra de los clientes. Utiliza inteligencia
                 artificial para maximizar la efectividad de tu equipo de ventas.
@@ -1070,8 +1087,10 @@
               class="sku-icon-div d-flex align_items_center pb-2 pt-5 mt-5"
             ></div>
             <div class="text-div py-2">
-              <h2>Inteligencia de Mercado Inmobiliario | MarketVision</h2>
-              <p class="sku-text">
+              <h2 id="marketvision-title">
+                Inteligencia de Mercado Inmobiliario | MarketVision
+              </h2>
+              <p class="sku-text" id="marketvision-desc">
                 Proveemos scraping de datos y reportes especializados para
                 respaldar decisiones estratégicas basadas en información
                 detallada del mercado. Obtén insights precisos y actualizados
@@ -1092,8 +1111,10 @@
               class="sku-icon-div d-flex align_items_center pb-2 pt-5 mt-5"
             ></div>
             <div class="text-div py-2">
-              <h2>Análisis de Precios Inmobiliarios | Smart Property Hunter</h2>
-              <p class="sku-text">
+              <h2 id="hunter-title">
+                Análisis de Precios Inmobiliarios | Smart Property Hunter
+              </h2>
+              <p class="sku-text" id="hunter-desc">
                 Ayudamos a inversionistas a encontrar inmuebles subvalorados
                 mediante inteligencia artificial, anticipándose al mercado y
                 maximizando su retorno. Detecta oportunidades antes que el resto
@@ -1118,7 +1139,7 @@
         <div class="row py-5 mt-5">
           <div class="col-12">
             <div class="testimonials text-center">
-              <h2>Conoce al equipo</h2>
+              <h2 id="team-title">Conoce al equipo</h2>
             </div>
           </div>
         </div>
@@ -1207,34 +1228,42 @@
           </div>
           <div class="col-lg-2 col-sm-6">
             <div class="f_widget about-widget">
-              <h3 class="f-title f_600 f_size_18 mb_40">Navegacion</h3>
+              <h3 class="f-title f_600 f_size_18 mb_40" id="footer-nav-title">
+                Navegacion
+              </h3>
               <ul class="list-unstyled f_list">
                 <li>
-                  <a href="#inicio">Inicio</a>
+                  <a href="#inicio" id="footer-nav-inicio">Inicio</a>
                 </li>
                 <li>
-                  <a href="#clientes"> Clientes </a>
+                  <a href="#clientes" id="footer-nav-clientes">Clientes</a>
                 </li>
                 <li>
-                  <a href="#servicios"> Servicios </a>
+                  <a href="#servicios" id="footer-nav-servicios">Servicios</a>
                 </li>
                 <li>
-                  <a href="#meet-the-team"> Equipo </a>
+                  <a href="#meet-the-team" id="footer-nav-equipo">Equipo</a>
                 </li>
                 <li>
-                  <a href="#contacto"> Contacto </a>
+                  <a href="#contacto" id="footer-nav-contacto">Contacto</a>
                 </li>
               </ul>
             </div>
           </div>
           <div class="col-lg-3 col-sm-6">
             <div class="f_widget about-widget">
-              <h3 class="f-title f_600 f_size_18 mb_40">Soporte</h3>
+              <h3
+                class="f-title f_600 f_size_18 mb_40"
+                id="footer-support-title"
+              >
+                Soporte
+              </h3>
               <ul class="list-unstyled f_list">
                 <li>
                   <a
                     href="https://drive.google.com/file/d/14uBWuyWMjv9Evg9pwJFAuikLTuRhkji1/view?usp=drive_link"
                     target="_blank"
+                    id="footer-privacy"
                     >Política de privacidad</a
                   >
                 </li>
@@ -1242,6 +1271,7 @@
                   <a
                     href="https://drive.google.com/file/d/1awQ7QldJfEOv9MPxIynLTzCMtHQOTexh/view?usp=drive_link"
                     target="_blank"
+                    id="footer-terms"
                     >Términos y Condiciones</a
                   >
                 </li>
@@ -1250,7 +1280,12 @@
           </div>
           <div class="col-lg-3 col-sm-6">
             <div class="f_widget social-widget mb-4">
-              <h3 class="f-title f_600 f_size_18 mb_40">Contactanos</h3>
+              <h3
+                class="f-title f_600 f_size_18 mb_40"
+                id="footer-contact-title"
+              >
+                Contactanos
+              </h3>
               <div class="f_social_icon">
                 <a
                   href="https://www.instagram.com/propulse.ia"
@@ -1276,6 +1311,10 @@
             <p class="f_size_15 my-0">
               <i class="fa fa-phone mr-2" aria-hidden="true"></i> +351925922568
             </p>
+            <select id="lang-switcher" class="btn btn-light btn-sm ml-3">
+              <option value="es">ES</option>
+              <option value="en">EN</option>
+            </select>
           </div>
         </div>
       </div>
@@ -1331,5 +1370,6 @@
     <script src="./jquery.mCustomScrollbar.concat.min.js.download"></script>
     <script src="./plugins.js.download"></script>
     <script src="./main.js.download"></script>
+    <script src="./propulse.js"></script>
   </body>
 </html>
