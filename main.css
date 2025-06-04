@@ -68,3 +68,7 @@ p.home-banner-text {
   margin: 0 auto;
   display: block;
 }
+
+#lang-switcher {
+  margin-left: 0 !important;
+}
