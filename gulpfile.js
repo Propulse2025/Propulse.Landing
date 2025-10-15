@@ -25,7 +25,7 @@ function scripts() {
 // Copy HTML
 function copyHtml() {
   return gulp
-    .src("src/index.html")
+    .src(["src/index.html", "src/demo-form.html"])
     .pipe(gulp.dest("dist"))
     .pipe(browserSync.stream());
 }
@@ -39,7 +39,8 @@ function watch() {
   });
   gulp.watch("src/styles/**/*.scss", style);
   gulp.watch("src/scripts/**/*.js", scripts);
-  gulp.watch("src/index.html", copyHtml).on("change", browserSync.reload);
+  gulp.watch("src/index.html", copyHtml);
+  gulp.watch("src/demo-form.html", copyHtml);
 }
 
 // Default task
