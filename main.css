@@ -72,3 +72,22 @@ p.home-banner-text {
 #lang-switcher {
   margin-left: 0 !important;
 }
+
+#demo-result {
+  position: relative;
+}
+
+.demo-result-container {
+  position: absolute;
+  height: 8%;
+  width: 11%;
+  left: 2.5%;
+  top: 46%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#demo-result-value {
+  margin: 0;
+}
