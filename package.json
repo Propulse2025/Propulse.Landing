@@ -6,7 +6,7 @@
   "main": "src/scripts/main.js",
   "scripts": {
     "start": "gulp",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gulp build && gh-pages -d dist"
   },
   "devDependencies": {
     "browser-sync": "^3.0.3",

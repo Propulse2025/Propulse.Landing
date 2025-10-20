@@ -43,5 +43,5 @@ function watch() {
   gulp.watch("src/demo-form.html", copyHtml);
 }
 
-// Default task
 exports.default = gulp.series(style, scripts, copyHtml, watch);
+exports.build = gulp.series(style, scripts, copyHtml);

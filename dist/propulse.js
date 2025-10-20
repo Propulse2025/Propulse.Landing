@@ -155,7 +155,7 @@ document.addEventListener("DOMContentLoaded", () => {
         fields[key] = value;
       }
 
-      const BASE_URL = "http://127.0.0.1:8000/api";
+      const BASE_URL = "https://wk3jq9pk-8000.uks1.devtunnels.ms/api";
       fetch(`${BASE_URL}/predict/`, {
         method: "POST",
         headers: {
