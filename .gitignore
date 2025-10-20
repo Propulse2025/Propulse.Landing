@@ -2,3 +2,4 @@ node_modules/
 dist/index.html
 dist/demo-form.html
 dist/main.css
+dist/propulse.js
